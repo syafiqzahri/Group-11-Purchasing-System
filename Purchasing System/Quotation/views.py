@@ -103,7 +103,6 @@ def quotationconfirmation(request):
         }
         items.append(item_table)
         i = i + 1
-        grand_total = grand_total + total
     print(items)
        
 
@@ -165,7 +164,6 @@ def quotationdetails(request):
         }
         items.append(item_table)
         i = i + 1
-        grand_total = grand_total + total
     print(items)
 
  
